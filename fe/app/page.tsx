@@ -6,7 +6,7 @@ export default function Home() {
   // const [headerText, setHeaderText] = useState();
 
   return (
-    <main>
+    <main className="overflow-auto">
       <Header />
       <Body />
       <NavBar />

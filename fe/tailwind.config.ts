@@ -9,8 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "off-white": "#fffffb",
-        body: "#fffffe",
+        "header-color": "#ffffff",
+        "body-color": "#fffafa",
+        "link-text": "#a3a39d",
+        "link-text-selected": "#19724a",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
