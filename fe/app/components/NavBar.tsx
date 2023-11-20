@@ -15,6 +15,7 @@ const NavBar = () => {
     <nav className="fixed bottom-0 left-0 w-full	flex justify-around h-12.5 bg-header-color text-xs ">
       {links.map(([title, url]) => (
         <Link
+          key={title}
           href={url}
           className="rounded-lg px-3 py-2 text-link-text font-bold hover:bg-slate-100 hover:text-link-text-selected "
         >

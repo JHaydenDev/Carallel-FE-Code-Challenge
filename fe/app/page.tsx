@@ -1,11 +1,9 @@
-import Body from "./components/Body";
+import LoginPage from "./login/page";
 
 export default function Home() {
-  // const [headerText, setHeaderText] = useState();
-
   return (
-    <main className="overflow-auto">
-      <Body />
+    <main style={{ height: "100vh" }} className="h-full overflow-auto">
+      <LoginPage />
     </main>
   );
 }
